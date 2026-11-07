@@ -81,3 +81,11 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+# TWRP display
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd_backlight0/brightness"
+TW_DEFAULT_BRIGHTNESS := 4000
+TW_MAX_BRIGHTNESS := 10000
+TW_NO_SCREEN_BLANK := true
+TW_THEME := portrait_hdpi
+TARGET_USES_VULKAN := false
