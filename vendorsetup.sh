@@ -77,7 +77,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_FL_PATH1="/sys/class/leds/torch"
 
 	# For honor 8x
-	export FOX_VARIANT="honor 8x"
+	export FOX_VARIANT="honor_8x"
 	export OF_MAINTAINER="xxxx96963"
 	export OF_SCREEN_H=2340
  	export TARGET_DEVICE_ALT="JSN-AL00,JSN-AL10,JSN-TL00,JSN-L21,JSN-L22,JSN-L23"
